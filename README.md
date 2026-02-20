@@ -72,6 +72,8 @@ También tuve que controlar bien el estado de carga para que no se mostraran dat
 
 Otro problema fue gestionar los errores en caso de que la API fallara, por lo que añadí un bloque try/catch y un estado para mostrar un mensaje en pantalla.
 
+También me equivoqué vinculando el github de primeras con una cuenta que no era y ha sido dificil arreglarlo.
+
 ---
 
 ## Conclusión
