@@ -64,6 +64,16 @@ El proyecto está organizado en carpetas:
 
 ---
 
+## Problemas encontrados
+
+Uno de los principales problemas fue entender cómo funcionaba la paginación, ya que la API devuelve una propiedad `next` con la siguiente URL. Tuve que guardarla en un estado para poder hacer nuevas peticiones cuando se pulsa el botón.
+
+También tuve que controlar bien el estado de carga para que no se mostraran datos incompletos mientras se hacía la petición.
+
+Otro problema fue gestionar los errores en caso de que la API fallara, por lo que añadí un bloque try/catch y un estado para mostrar un mensaje en pantalla.
+
+---
+
 ## Conclusión
 
 Con esta práctica he aprendido a consumir una API desde React, a usar useEffect para hacer peticiones y a gestionar estados como loading y error.
