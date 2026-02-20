@@ -1,0 +1,1 @@
+export type { Character, ApiResponse } from "./character";
